@@ -2,6 +2,7 @@
   <img alt="Vue logo" src="./assets/logo.png">
   <HelloWorld msg="Uygulamaya Hosgeldiniz"/>
   <bilesen1 class="ortala" @click="CartaBas" />
+  
 
   <h2>Adamim ya nasilsin</h2>
 </template>
@@ -32,6 +33,6 @@ export default {
   text-align: center;
   color: #20b81b;
   margin-top: 60px;
-  background-color: black;
+  background-color: rgb(13, 53, 31);
 }
 </style>
