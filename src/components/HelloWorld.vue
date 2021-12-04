@@ -2,16 +2,19 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
+      This is our Vue3  Application running in a Docker Container and 
+      serving through a custom build httpd 2.4 (Apache) webserver image..
+
+      <br> <br />
+      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">We are using the vue3 as cli </a>.
     </p>
-    <h3>Installed CLI Plugins</h3>
+    <h4>Download the project repository (test) </h4>
             <button>Download</button>
 
     <ul>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">eslint</a></li>
+      <h3> You can reach to me via : </h3> 
+      <li><a href="https://www.datasciencebase.com" target="_blank" rel="noopener">Data Science Base</a></li>
+      <li><a href="https://www.linkedin.com/in/uygarh/" target="_blank" rel="noopener">linkedin</a></li>
     </ul>
     
     
@@ -22,7 +25,7 @@
 export default {
   name: 'HelloWorld',
   props: {
-    msg: String
+    msg: String,
   }
 }
 </script>

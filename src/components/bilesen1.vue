@@ -1,6 +1,6 @@
 <template>
 <div class="card">
-Card Content
+<h3> Vue3 Click Event </h3>
 
 </div>
 
@@ -19,21 +19,28 @@ export default {
 
 
 .card {
- box-shadow: 0 4px 8px 0 rgba(199, 38, 38, 0.5);
+ box-shadow: 0 4px 8px 0 rgba(37, 36, 36, 0.5);
  transition: 0.3s;
  padding: 16px;
  margin-bottom: 20px;
  width: 200px;
- background-color: rgb(46, 24, 6);
+ background-color: rgb(50, 179, 189); 
+ color: rgb(0, 0, 0);
+
 
 }
 
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(201, 183, 183, 0.5)
+    box-shadow: 10px 5px 5px red;
 }
 
-.ortala {  
-    margin-left: 30%;
+.ortala { 
+    align-content: center; 
+    background-image: url(../assets/logo.png);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
 }
 
 
